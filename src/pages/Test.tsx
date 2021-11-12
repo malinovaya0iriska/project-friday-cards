@@ -1,8 +1,10 @@
 import React from 'react';
 import {CustomButton} from "../common/CustomButton/CustomButton";
+import {CustomCheckbox} from "../common/CustomCheckbox/CustomCheckbox";
 
 const Test = () => {
     return (
+        <>
         <div>
             <CustomButton>
                 default
@@ -28,6 +30,10 @@ const Test = () => {
             </CustomButton>
 
         </div>
+            <div>
+            <CustomCheckbox/>
+            </div>
+        </>
     );
 };
 
