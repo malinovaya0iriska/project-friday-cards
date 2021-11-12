@@ -1,0 +1,45 @@
+.formRow {
+    --background: #3311d3;
+    --color: #ff9b07;
+     position: relative;
+     margin-top: 40px;
+}
+
+.inputTextLabel {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    color: var(--background);
+    font-size: 1.4em;
+    font-weight: 500;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+}
+
+.default {
+    font-size: 1.5em;
+    color: #000;
+    display: block;
+    width: 30%;
+    padding: 0 10px;
+    line-height: 2em;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid var(--color);
+    transition: all 0.2s ease;
+}
+
+.default:focus {
+    outline: 0;
+    border-color: var(--background);
+}
+
+.default:focus + .inputTextLabel{
+    transform: translateY(-70px);
+    font-size: 1.2em;
+    font-weight: 400;
+    outline: 0;
+    border-color: var(--color);
+    color: var(--color);
+}
