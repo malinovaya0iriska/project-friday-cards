@@ -1,8 +1,8 @@
 .formRow {
     --background: #3311d3;
     --color: #ff9b07;
-     position: relative;
-     margin-top: 40px;
+    position: relative;
+    margin-top: 40px;
 }
 
 .inputTextLabel {
@@ -35,7 +35,7 @@
     border-color: var(--background);
 }
 
-.default:focus + .inputTextLabel{
+.default:focus + .inputTextLabel {
     transform: translateY(-70px);
     font-size: 1.2em;
     font-weight: 400;

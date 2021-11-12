@@ -14,7 +14,7 @@ type CustomInputTextPropsType = DefaultInputPropsType & { // и + ещё про�
     spanClassName?: string
 
 }
-export const CustomInputText:React.FC<CustomInputTextPropsType> = (
+export const CustomInputText: React.FC<CustomInputTextPropsType> = (
     {
         type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
         onChange, onChangeText,
@@ -39,7 +39,7 @@ export const CustomInputText:React.FC<CustomInputTextPropsType> = (
         && onEnter() // то вызвать его
     }
 
-    const finalInputClassName = `${s.default} ${error? s.errorInput : s.default} ${className}`
+    const finalInputClassName = `${s.default} ${error ? s.errorInput : s.default} ${className}`
 
     return (
         <div className={s.formRow}>

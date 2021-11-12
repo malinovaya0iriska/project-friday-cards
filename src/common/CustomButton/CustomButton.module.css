@@ -43,7 +43,8 @@
 .default:hover::before {
     left: 100%;
 }
-.default:disabled{
+
+.default:disabled {
     opacity: 0.6;
     transform: none;
 }
@@ -82,10 +83,12 @@
     animation: storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
 }
-.custom:disabled{
+
+.custom:disabled {
     opacity: 0.5;
     animation: none;
 }
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg) translate3d(0, 0, 0);

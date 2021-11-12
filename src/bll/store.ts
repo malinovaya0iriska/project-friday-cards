@@ -4,7 +4,6 @@ import {loadingReducer} from "./loadingReducer";
 import {loginReducer} from "./loginReducer";
 
 
-
 const reducers = combineReducers({
     loading: loadingReducer,
     login: loginReducer,
